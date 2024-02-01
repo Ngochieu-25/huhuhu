@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai2</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <form>
+        <div class="form-group">
+            <label for="name">Họ và Tên:</label>
+            <br/>
+            <input type="text" name="name" id="name" />
+        </div>
+            <fieldset>
+                <legend>Giới tính: </legend>
+                <input type="radio" name="checkbox" id="checkbox" /> Nam
+                <input type="radio" name="checkbox" id="checkbox" /> Nữ
+            </fieldset>
+            <br/> 
+            <label for="ngaysinh">Ngày sinh:</label>
+            <br/>
+            <input type="date" id="ngaysinh" name="ngaysinh">
+            <br/>
+            <div class="form-group">
+            <label for="Diem">Điểm số:</label>
+            <br/>
+            <input type="number" id="Diem" name="Diem" min="0" max="10" step="0.25" class="form-control">
+            </div>
+            <br/>
+            <label for="job">Nghề Nghiệp:</label>
+            <br/>
+            <select name="job" id=""> Nghề Nghiệp:
+                <option value="1">Lập trình viên</option>
+                <option value="2">Giáo viên</option>
+                <option value="3">Công nhân</option>
+                <option value="4">Thợ mỏ</option>
+                <option value="5">Ca sĩ</option>
+                <option value="6">Diễn viên</option>
+            </select>
+            <fieldset>
+                <legend>Sở Thích: </legend>
+                <input type="checkbox" name="so thich" id="checkbox" /> Thể Thao
+                <input type="checkbox" name="so thich" id="checkbox" /> Du lịch
+                <input type="checkbox" name="so thich" id="checkbox" /> Âm nhạc
+                <input type="checkbox" name="so thich" id="checkbox" /> Ẩm thực
+            </fieldset>
+            <label for="textarea">Ghi chú:</label>
+            <br/>
+            <textarea name="ghichu" id="" cols="30" rows="10"></textarea>
+            <hr/>
+            <div class="form-group">
+                <button class="form-button" >Đăng ký</button>
+                <button class="form-button" >Nhập lại</button>
+            </div>    
+    </form>
+</body>
+</html>
